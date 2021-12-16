@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AffineSIFT\splines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\compute_asift_keypoints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\demo_lib_sift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\domain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\filter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\flimage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\fproj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\frot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\library.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\numerics1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ASIFT_Detector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aff_features2d.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\time_calc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\Arg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\ArgException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\ArgTraits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\CmdLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\CmdLineInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\CmdLineOutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\Constraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\DocBookOutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\HelpVisitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\IgnoreRestVisitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\MultiArg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\MultiSwitchArg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\OptionalUnlabeledTracker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\StandardTraits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\StdOutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\SwitchArg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\UnlabeledMultiArg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\UnlabeledValueArg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\ValueArg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\ValuesConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\VersionVisitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\Visitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\XorHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tclap\ZshCompletionOutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\apps\featuresIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\apps\mediaIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere2cube.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\compute_asift_matches.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\libMatch\match.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\orsa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\libNumerics\homography.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\libNumerics\matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\libNumerics\numerics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineSIFT\libNumerics\rodrigues.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ransac.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bundle_adjustment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\compute_asift_keypoints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\demo_lib_sift.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\domain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\filter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\flimage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\fproj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\frot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\library.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\numerics1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\splines.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ASIFT_Detector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\apps\aff_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\apps\aff_match_images.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\apps\aff_match_video.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\apps\featuresIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\apps\mediaIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aff_angles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aff_features2d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aff_helper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aff_matchers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\apps\aff_6face_sift.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere2cube.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\compute_asift_matches.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\libMatch\match.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\orsa.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\libNumerics\computeH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\libNumerics\homography.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\libNumerics\matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\libNumerics\numerics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\libNumerics\rodrigues.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffineSIFT\libNumerics\vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ransac.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="essentialMat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle_adjustment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f9b25f83-d58b-4a02-a2a7-b321149ee7f2}</ProjectGuid>
+    <RootNamespace>PanoStitch</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PropertySheetDebug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PropertySheetRelease.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AffineSIFT\compute_asift_keypoints.h" />
+    <ClInclude Include="AffineSIFT\compute_asift_matches.h" />
+    <ClInclude Include="AffineSIFT\demo_lib_sift.h" />
+    <ClInclude Include="AffineSIFT\domain.h" />
+    <ClInclude Include="AffineSIFT\filter.h" />
+    <ClInclude Include="AffineSIFT\flimage.h" />
+    <ClInclude Include="AffineSIFT\fproj.h" />
+    <ClInclude Include="AffineSIFT\frot.h" />
+    <ClInclude Include="AffineSIFT\libMatch\match.h" />
+    <ClInclude Include="AffineSIFT\libNumerics\homography.h" />
+    <ClInclude Include="AffineSIFT\libNumerics\matrix.h" />
+    <ClInclude Include="AffineSIFT\libNumerics\numerics.h" />
+    <ClInclude Include="AffineSIFT\libNumerics\rodrigues.h" />
+    <ClInclude Include="AffineSIFT\library.h" />
+    <ClInclude Include="AffineSIFT\numerics1.h" />
+    <ClInclude Include="AffineSIFT\orsa.h" />
+    <ClInclude Include="AffineSIFT\splines.h" />
+    <ClInclude Include="ASIFT_Detector.h" />
+    <ClInclude Include="bundle_adjustment.h" />
+    <ClInclude Include="ransac.hpp" />
+    <ClInclude Include="sphere2cube.h" />
+    <ClInclude Include="src\aff_features2d.hpp" />
+    <ClInclude Include="src\apps\featuresIO.h" />
+    <ClInclude Include="src\apps\mediaIO.h" />
+    <ClInclude Include="src\tclap\Arg.h" />
+    <ClInclude Include="src\tclap\ArgException.h" />
+    <ClInclude Include="src\tclap\ArgTraits.h" />
+    <ClInclude Include="src\tclap\CmdLine.h" />
+    <ClInclude Include="src\tclap\CmdLineInterface.h" />
+    <ClInclude Include="src\tclap\CmdLineOutput.h" />
+    <ClInclude Include="src\tclap\Constraint.h" />
+    <ClInclude Include="src\tclap\DocBookOutput.h" />
+    <ClInclude Include="src\tclap\HelpVisitor.h" />
+    <ClInclude Include="src\tclap\IgnoreRestVisitor.h" />
+    <ClInclude Include="src\tclap\MultiArg.h" />
+    <ClInclude Include="src\tclap\MultiSwitchArg.h" />
+    <ClInclude Include="src\tclap\OptionalUnlabeledTracker.h" />
+    <ClInclude Include="src\tclap\StandardTraits.h" />
+    <ClInclude Include="src\tclap\StdOutput.h" />
+    <ClInclude Include="src\tclap\SwitchArg.h" />
+    <ClInclude Include="src\tclap\UnlabeledMultiArg.h" />
+    <ClInclude Include="src\tclap\UnlabeledValueArg.h" />
+    <ClInclude Include="src\tclap\ValueArg.h" />
+    <ClInclude Include="src\tclap\ValuesConstraint.h" />
+    <ClInclude Include="src\tclap\VersionVisitor.h" />
+    <ClInclude Include="src\tclap\Visitor.h" />
+    <ClInclude Include="src\tclap\XorHandler.h" />
+    <ClInclude Include="src\tclap\ZshCompletionOutput.h" />
+    <ClInclude Include="src\time_calc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AffineSIFT\compute_asift_keypoints.cpp" />
+    <ClCompile Include="AffineSIFT\compute_asift_matches.cpp" />
+    <ClCompile Include="AffineSIFT\demo_lib_sift.cpp" />
+    <ClCompile Include="AffineSIFT\domain.cpp" />
+    <ClCompile Include="AffineSIFT\filter.cpp" />
+    <ClCompile Include="AffineSIFT\flimage.cpp" />
+    <ClCompile Include="AffineSIFT\fproj.cpp" />
+    <ClCompile Include="AffineSIFT\frot.cpp" />
+    <ClCompile Include="AffineSIFT\libMatch\match.cpp" />
+    <ClCompile Include="AffineSIFT\libNumerics\computeH.cpp" />
+    <ClCompile Include="AffineSIFT\libNumerics\homography.cpp" />
+    <ClCompile Include="AffineSIFT\libNumerics\matrix.cpp" />
+    <ClCompile Include="AffineSIFT\libNumerics\numerics.cpp" />
+    <ClCompile Include="AffineSIFT\libNumerics\rodrigues.cpp" />
+    <ClCompile Include="AffineSIFT\libNumerics\vector.cpp" />
+    <ClCompile Include="AffineSIFT\library.cpp" />
+    <ClCompile Include="AffineSIFT\numerics1.cpp" />
+    <ClCompile Include="AffineSIFT\orsa.cpp" />
+    <ClCompile Include="AffineSIFT\splines.cpp" />
+    <ClCompile Include="ASIFT_Detector.cpp" />
+    <ClCompile Include="bundle_adjustment.cpp" />
+    <ClCompile Include="essentialMat.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ransac.cpp" />
+    <ClCompile Include="sphere2cube.cpp" />
+    <ClCompile Include="src\aff_angles.cpp" />
+    <ClCompile Include="src\aff_features2d.cpp" />
+    <ClCompile Include="src\aff_helper.cpp" />
+    <ClCompile Include="src\aff_matchers.cpp" />
+    <ClCompile Include="src\apps\aff_6face_sift.cpp" />
+    <ClCompile Include="src\apps\aff_demo.cpp" />
+    <ClCompile Include="src\apps\aff_match_images.cpp" />
+    <ClCompile Include="src\apps\aff_match_video.cpp" />
+    <ClCompile Include="src\apps\featuresIO.cpp" />
+    <ClCompile Include="src\apps\mediaIO.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
